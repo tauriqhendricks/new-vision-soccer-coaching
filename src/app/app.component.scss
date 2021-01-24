@@ -1,0 +1,45 @@
+.hero {
+  height: 100vh;
+  background-image: url("../assets/images/jhan-castillon--xWbnIW_ma0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  padding: 50px;
+}
+
+.header {
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+}
+
+.aa {
+  position: absolute;
+  bottom: 200px;
+}
+
+.tag {
+  font-weight: bold;
+  color: white;
+
+  span {
+    -webkit-text-stroke: 1px white; /* width and color */
+
+    font-weight: bold;
+    color: black;
+  }
+}
+
+.cta {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+
+  span {
+    border-bottom: 2px solid white;
+  }
+}
