@@ -1,0 +1,54 @@
+.home {
+  position: relative;
+  img {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .warra {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .title {
+    font-weight: bold;
+    color: white;
+  }
+
+  .sub {
+    // font-weight: ;
+    margin-top: 20px;
+    width: 435px;
+    color: #e4e4e4;
+    font-size: 16px;
+  }
+
+  .aa {
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+  }
+
+  .tag {
+    font-weight: bold;
+    color: white;
+
+    span {
+      -webkit-text-stroke: 1px white; /* width and color */
+
+      font-weight: bold;
+      color: black;
+    }
+  }
+
+  .cta {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+
+    span {
+      border-bottom: 2px solid white;
+    }
+  }
+}
