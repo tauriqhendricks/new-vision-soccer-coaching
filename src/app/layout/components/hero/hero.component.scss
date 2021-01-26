@@ -6,15 +6,46 @@
     height: 100vh;
   }
 
-  .header {
+  .nav-bar {
     position: absolute;
     top: 50px;
-    left: 50px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     .app-name {
       font-weight: bold;
-      color: white;
+      color: #ffffff;
+      font-size: 32px;
+      width: 500px;
+
+      span {
+        color: #e4e4e4;
+      }
     }
+
+    .link {
+      font-weight: bold;
+      color: #e4e4e4;
+      font-size: 20px;
+      margin-left: 30px;
+      text-decoration: none;
+    }
+
+    .link:hover {
+      cursor: pointer;
+      color: #ffffff;
+    }
+  }
+
+  .header {
+    position: absolute;
+    top: 90px;
+    left: 50px;
 
     .quote {
       margin-top: 20px;
@@ -31,23 +62,30 @@
 
     .tag {
       font-weight: bold;
-      color: white;
+      color: #ffffff;
+      font-size: 35px;
 
       span {
-        -webkit-text-stroke: 1px white; /* width and color */
+        -webkit-text-stroke: 1px #ffffff; /* width and color */
 
         font-weight: bold;
-        color: black;
+        color: #000000;
       }
     }
 
     .cta {
-      color: white;
+      color: #ffffff;
       font-size: 22px;
-      cursor: pointer;
 
       span {
-        border-bottom: 2px solid white;
+        cursor: pointer;
+        border-bottom: 2px solid #ffffff;
+      }
+
+      span:hover {
+        color: #ffffff;
+
+        border-bottom: 2px solid #ffffff;
       }
     }
   }

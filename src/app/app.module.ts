@@ -20,11 +20,11 @@ import { FooterComponent } from './layout/components/footer/footer.component';
     FeaturesComponent,
     InformationComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
