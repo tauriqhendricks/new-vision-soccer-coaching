@@ -24,7 +24,7 @@ import { FooterComponent } from './layout/components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
