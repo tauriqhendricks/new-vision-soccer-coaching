@@ -1,0 +1,46 @@
+.contact-holder {
+  background: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  .grid-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .contact-form {
+      h3 {
+        margin-bottom: 40px;
+      }
+
+      .name-holder {
+        margin-bottom: 20px;
+
+        .form-control {
+          width: 400px;
+        }
+      }
+
+      .email-holder {
+        margin-bottom: 20px;
+
+        .form-control {
+          width: 400px;
+        }
+      }
+
+      .message-holder {
+        margin-bottom: 20px;
+
+        textarea {
+          width: 400px;
+          min-height: 200px;
+          resize: none;
+        }
+      }
+    }
+
+    .picture {
+      background: white;
+    }
+  }
+}
