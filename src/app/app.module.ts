@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeroComponent } from './layout/components/hero/hero.component';
-import { NavbarComponent } from './layout/components/navbar/navbar.component';
 import { TrainingComponent } from './layout/components/training/training.component';
 import { FeaturesComponent } from './layout/components/features/features.component';
 import { InformationComponent } from './layout/components/information/information.component';
@@ -15,7 +14,6 @@ import { FooterComponent } from './layout/components/footer/footer.component';
   declarations: [
     AppComponent,
     HeroComponent,
-    NavbarComponent,
     TrainingComponent,
     FeaturesComponent,
     InformationComponent,
