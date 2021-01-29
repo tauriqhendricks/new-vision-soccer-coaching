@@ -77,12 +77,15 @@
       color: #ffffff;
       font-size: 22px;
 
-      span {
-        cursor: pointer;
-        border-bottom: 2px solid #ffffff;
+      a {
+        // cursor: pointer;
+        color: #e4e4e4;
+
+        text-decoration: none;
+        border-bottom: 2px solid #e4e4e4;
       }
 
-      span:hover {
+      a:hover {
         color: #ffffff;
 
         border-bottom: 2px solid #ffffff;
