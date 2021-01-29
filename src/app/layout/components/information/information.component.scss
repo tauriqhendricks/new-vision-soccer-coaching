@@ -1,18 +1,18 @@
 .app-information {
   padding-top: 80px;
-  padding-bottom: 80px;
-  background: #f1f1f1;
+  padding-bottom: 60px;
+  background: #bae8e8;
 }
 
 h2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
 .inform {
-  border: 1px solid #cfcfcf;
-  border-radius: 10px;
-  background-color: #ffffff;
+  //   border: 1px solid #cfcfcf;
+  //   border-radius: 10px;
+  //   background-color: #ffffff;
   padding: 15px;
   margin: 15px;
 
@@ -21,10 +21,14 @@ h2 {
   }
 }
 
+.i-border {
+  border-right: 1px solid #272343;
+}
+
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 15px;
+  //   column-gap: 15px;
 }
 
 .link {
