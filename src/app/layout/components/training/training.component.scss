@@ -1,0 +1,59 @@
+.training-holder {
+  background: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.header-container {
+  margin-bottom: 60px;
+  text-align: center;
+  padding: 20px;
+}
+
+.type-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 40px;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  background-color: #e3f6f5;
+  padding: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  height: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  i {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    padding: 0;
+  }
+
+  .type-container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .type-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

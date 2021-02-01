@@ -1,0 +1,39 @@
+.feature-holder {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background: #e3f6f5;
+}
+
+.quote-holder {
+  text-align: center;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.quote {
+  margin: 0 40px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .quote {
+    margin: 0 80px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .quote {
+    margin: 0 160px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quote {
+    margin: 0 250px;
+    margin-bottom: 20px;
+  }
+}

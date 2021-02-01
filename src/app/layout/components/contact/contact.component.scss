@@ -1,0 +1,109 @@
+.contact-holder {
+  background: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  .grid-holder {
+    .contact-form {
+      h2 {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      h5 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .input-holder {
+        display: grid;
+        grid-template-columns: 1fr;
+        // grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+
+        padding: 0 20px;
+        // padding: 0 60px;
+      }
+
+      .name-holder {
+        margin-bottom: 20px;
+
+        .form-control {
+          width: 100%;
+        }
+      }
+
+      .email-holder {
+        margin-bottom: 20px;
+
+        .form-control {
+          width: 100%;
+        }
+      }
+
+      .message-holder {
+        margin-bottom: 20px;
+        // padding: 0 60px;
+        padding: 0 20px;
+
+        textarea {
+          width: 100%;
+          min-height: 200px;
+          resize: none;
+        }
+      }
+
+      .btn-holder {
+        // padding: 0 60px;
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .contact-holder {
+    .grid-holder {
+      .contact-form {
+        .input-holder {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          padding: 0 60px;
+        }
+
+        .message-holder {
+          padding: 0 60px;
+        }
+
+        .btn-holder {
+          padding: 0 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-holder {
+    .grid-holder {
+      .contact-form {
+        .input-holder {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          padding: 0 150px;
+        }
+
+        .message-holder {
+          padding: 0 150px;
+        }
+
+        .btn-holder {
+          padding: 0 150px;
+        }
+      }
+    }
+  }
+}
