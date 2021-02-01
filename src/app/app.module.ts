@@ -9,6 +9,7 @@ import { InformationComponent } from './layout/components/information/informatio
 import { ContactComponent } from './layout/components/contact/contact.component';
 import { FooterComponent } from './layout/components/footer/footer.component';
 import { QuoteComponent } from './layout/components/quote/quote.component';
+import { HeaderComponent } from './layout/components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { QuoteComponent } from './layout/components/quote/quote.component';
     InformationComponent,
     ContactComponent,
     FooterComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
