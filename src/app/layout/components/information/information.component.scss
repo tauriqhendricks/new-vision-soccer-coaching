@@ -30,3 +30,15 @@ h2 {
 .link {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 750px){
+
+  .row{
+    display: grid;
+    grid-template-columns: auto !important;
+  }
+  .i-border {
+    border-bottom: 1px solid #272343;
+    border-right: none;
+  }
+} 

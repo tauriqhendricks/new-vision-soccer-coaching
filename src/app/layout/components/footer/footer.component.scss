@@ -34,3 +34,11 @@ div#sp-footer2 {
 .app-footer .row {
   margin-right: 0px;
 }
+
+@media only screen and (max-width: 752px){
+
+  .app-footer {
+    width: 100%;
+    height: 81px !important;
+  }
+} 
