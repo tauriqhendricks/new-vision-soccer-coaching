@@ -1,0 +1,18 @@
+<nav class="nav-holder">
+    <div class="heading">
+        <div>
+            <h3>NewVision</h3>
+            <h3 class="part">Soccer Coaching</h3>
+        </div>
+
+        <div>
+            <i class="fas fa-bars" (click)="isMenuCollapsed = !isMenuCollapsed"></i>
+        </div>
+    </div>
+
+    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+        <a class="link" href="#training-section">Training</a>
+        <a class="link" href="#information-section">Information</a>
+        <a class="link" href="#contact-section">Contact</a>
+    </div>
+</nav>

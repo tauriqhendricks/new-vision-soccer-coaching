@@ -10,11 +10,53 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/2d067bf6a6.js" crossorigin="anonymous"></script>
+
+ 
+ 
 </head>
 
 <body>
-
+  <a id="yt-totop" class="backtotop" href="#"><i class="fa fa-angle-up"></i></a>
+  <script type="text/javascript">
+    jQuery(".backtotop").addClass("hidden-top");
+  jQuery(window).scroll(function () {
+  if (jQuery(this).scrollTop() === 0) {
+    jQuery(".backtotop").addClass("hidden-top")
+  } else {
+    jQuery(".backtotop").removeClass("hidden-top")
+  }
+  });
+  
+  jQuery('.backtotop').click(function () {
+  jQuery('body,html').animate({
+      scrollTop:0
+    }, 1200);
+  return false;
+  });
+  </script>
   <app-root></app-root>
+  
 </body>
 
+<script>
+
+  jQuery(function() {
+
+     jQuery('a').click(function(){ // Change the anchor to whatever suits your situation
+
+        jQuery('html,body').animate({
+
+           scrollTop: jQuery(jQuery(this).attr('href')).offset().top
+
+        }, 1000);
+
+        return false;
+
+     });
+
+  });
+
+
+
+</script>
 </html>
