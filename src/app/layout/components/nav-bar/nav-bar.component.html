@@ -11,8 +11,8 @@
     </div>
 
     <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
-        <a class="link" href="#training-section">Training</a>
-        <a class="link" href="#information-section">Information</a>
-        <a class="link" href="#contact-section">Contact</a>
+        <a class="link" href="#training-section" (click)="isMenuCollapsed = true">Training</a>
+        <a class="link" href="#information-section" (click)="isMenuCollapsed = true">Information</a>
+        <a class="link" href="#contact-section" (click)="isMenuCollapsed = true">Contact</a>
     </div>
 </nav>
