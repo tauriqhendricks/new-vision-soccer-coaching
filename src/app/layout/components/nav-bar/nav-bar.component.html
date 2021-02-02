@@ -6,13 +6,22 @@
         </div>
 
         <div>
-            <i class="fas fa-bars" (click)="isMenuCollapsed = !isMenuCollapsed"></i>
+            <i class="fas fa-bars" (click)="aa = !aa"></i>
         </div>
     </div>
-
-    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
-        <a class="link" href="#training-section" (click)="isMenuCollapsed = true">Training</a>
-        <a class="link" href="#information-section" (click)="isMenuCollapsed = true">Information</a>
-        <a class="link" href="#contact-section" (click)="isMenuCollapsed = true">Contact</a>
+    <div [ngbCollapse]="aa" class="collapse navbar-collapse">
+        <a class="link" (click)="scroll('training')">Training</a>
+        <a class="link" (click)="scroll('information')">Information</a>
+        <a class="link" (click)="scroll('contact')">Contact</a>
     </div>
+
+    <!-- <div [ngbCollapse]="aa" class="collapse navbar-collapse">
+
+        <a (click)="aa = true">Features</a>
+
+        <a (click)="aa = true">Examples</a>
+
+        <a style="display: inline-block;" href="#contact" (click)="aa = true">About</a>
+
+    </div> -->
 </nav>
