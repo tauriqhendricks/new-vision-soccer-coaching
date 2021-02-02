@@ -11,6 +11,12 @@ import { FooterComponent } from './layout/components/footer/footer.component';
 import { QuoteComponent } from './layout/components/quote/quote.component';
 import { HeaderComponent } from './layout/components/header/header.component';
 import { NavBarComponent } from './layout/components/nav-bar/nav-bar.component';
+import { Routes, RouterModule } from '@angular/router';
+
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
+
+const routes: Routes = [];
 
 @NgModule({
   declarations: [
@@ -27,7 +33,11 @@ import { NavBarComponent } from './layout/components/nav-bar/nav-bar.component';
   imports: [
     BrowserModule,
     NgbModule,
+    NgxPageScrollCoreModule,
+    NgxPageScrollModule,
+    RouterModule.forRoot(routes),
   ],
+  exports: [RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
