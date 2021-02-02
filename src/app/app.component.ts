@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
   }
 
   scrollView(elementId: string): void {
-    this.test();
+    // this.test();
 
     // document.getElementById(elementId).scrollIntoView({behavior: 'smooth'});
 
@@ -36,22 +36,22 @@ export class AppComponent implements OnInit {
 
     // window.scrollBy(0,-10);
 
-    let debounce: number;
-    let scrollDistance: number;
+    // let debounce: number;
+    // let scrollDistance: number;
 
-    if (elementId === 'training') {
-      debounce = 400;
-      scrollDistance = -60;
-    } else {
-      debounce = 700;
-      scrollDistance = -85;
-    }
+    // if (elementId === 'training') {
+    //   debounce = 400;
+    //   scrollDistance = -60;
+    // } else {
+    //   debounce = 700;
+    //   scrollDistance = -85;
+    // }
 
-    setTimeout(() => {
-      window.scrollBy(0, scrollDistance);
-    }, debounce);
+    // setTimeout(() => {
+    //   window.scrollBy(0, scrollDistance);
+    // }, debounce);
 
-    console.log('wawa');
+    // console.log('wawa');
 
   }
 
