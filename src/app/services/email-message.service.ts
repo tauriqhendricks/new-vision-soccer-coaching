@@ -12,7 +12,6 @@ export class EmailMessageService {
   constructor(private httpClient: HttpClient) { }
 
   sendEmail(email: EmailMessage): Observable<EmailMessage> {
-    // return this.httpClient.post('http://emaildev.azurewebsites.net/api/email', email, {responseType: 'text'});
     return this.httpClient.post<EmailMessage>('https://emaildev.azurewebsites.net/api/email', email);
   }
 
