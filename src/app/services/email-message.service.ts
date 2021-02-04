@@ -8,11 +8,10 @@ import { EmailMessage } from '../models/email-message.model';
 })
 export class EmailMessageService {
 
-
   constructor(private httpClient: HttpClient) { }
 
   sendEmail(email: EmailMessage): Observable<EmailMessage> {
-    return this.httpClient.post<EmailMessage>('https://emaildev.azurewebsites.net/api/email', email);
+    return this.httpClient.post<EmailMessage>('http://api.tzdev.co.za/api/email', email);
   }
 
 }
