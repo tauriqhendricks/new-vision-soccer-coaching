@@ -1,5 +1,5 @@
 .nav-holder {
-  padding: 13px 20px;
+  padding: 13px 80px;
   background: #222627;
   color: #ffffff;
   border: none;
@@ -8,6 +8,7 @@
 .heading {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px;
 
   h3 {
@@ -17,21 +18,18 @@
   .part {
     color: #e4e4e4;
   }
-
-  i {
-    cursor: pointer;
-    font-size: 30px;
-    margin-top: 3px;
-  }
 }
 
 a {
   color: #e3f6f5;
-  border-bottom: 1px solid #e3f6f5;
   text-decoration: none;
 }
 
+a:hover {
+  color: white;
+}
+
 .link {
-  display: block;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-left: 25px;
 }

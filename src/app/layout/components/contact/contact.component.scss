@@ -18,11 +18,8 @@
       .input-holder {
         display: grid;
         grid-template-columns: 1fr;
-        // grid-template-columns: 1fr 1fr;
         column-gap: 10px;
-
         padding: 0 20px;
-        // padding: 0 60px;
       }
 
       .name-holder {
@@ -43,7 +40,6 @@
 
       .message-holder {
         margin-bottom: 20px;
-        // padding: 0 60px;
         padding: 0 20px;
 
         textarea {
@@ -53,15 +49,28 @@
         }
       }
 
+      .alerts {
+        padding: 0 20px;
+
+        .alert {
+          font-size: 13px;
+          padding: 10px 15px;
+        }
+      }
+
       .btn-holder {
-        // padding: 0 60px;
         padding: 0 20px;
       }
     }
   }
 }
 
-@media (min-width: 768px) {
+.error {
+  border-color: red;
+}
+
+.none {
+  border-color: rgb(206, 212, 218);
 }
 
 @media (min-width: 992px) {
@@ -75,6 +84,10 @@
         }
 
         .message-holder {
+          padding: 0 60px;
+        }
+
+        .alerts {
           padding: 0 60px;
         }
 
@@ -97,6 +110,10 @@
         }
 
         .message-holder {
+          padding: 0 150px;
+        }
+
+        .alerts {
           padding: 0 150px;
         }
 
