@@ -13,7 +13,7 @@ export class EmailMessageService {
 
   sendEmail(email: EmailMessage): Observable<EmailMessage> {
     // return this.httpClient.post('http://emaildev.azurewebsites.net/api/email', email, {responseType: 'text'});
-    return this.httpClient.post<EmailMessage>('http://emaildev.azurewebsites.net/api/email', email);
+    return this.httpClient.post<EmailMessage>('https://emaildev.azurewebsites.net/api/email', email);
   }
 
 }
