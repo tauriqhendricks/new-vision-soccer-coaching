@@ -48,6 +48,8 @@ export class ContactComponent implements OnInit {
     this.emailAddress =  '';
     this.message = '';
 
+    this.alertifyService.message('Email is sending!!!');
+
     this.emailMessageService.sendEmail(email).subscribe(
       data => {
         if (data) {
