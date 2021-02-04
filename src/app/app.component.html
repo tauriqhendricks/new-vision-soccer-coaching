@@ -1,27 +1,5 @@
-<!-- <app-hero></app-hero> -->
-<!-- <app-nav-bar (outputElementId)="scrollView($event)"></app-nav-bar> -->
-
-<!-- <a pageScroll href="#awesomePart">Take me to the awesomeness</a> -->
-
-<nav class="nav-holder">
-    <div class="heading">
-        <div>
-            <h3>NewVision</h3>
-            <h3 class="part">Soccer Coaching</h3>
-        </div>
-
-        <div>
-            <i class="fas fa-bars" (click)="isMenuCollapsed = !isMenuCollapsed"></i>
-        </div>
-    </div>
-    <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
-        <a class="link" (click)="scrollView('training')">Training</a>
-        <!-- <a class="link" (click)="scrollView('information')">Information</a> -->
-        <a class="link" (click)="scrollView('information')">Information</a>
-        <a class="link" (click)="scrollView('contact')">Contact</a>
-    </div>
-</nav>
-
+<app-nav-bar-sm id="nav-bar-sm"></app-nav-bar-sm>
+<app-nav-bar-lg id="nav-bar-lg"></app-nav-bar-lg>
 <app-header></app-header>
 <app-training id="training"></app-training>
 <app-quote></app-quote>
