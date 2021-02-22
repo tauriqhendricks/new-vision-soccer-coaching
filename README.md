@@ -2,26 +2,39 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.0.
 
-## Development server
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#built-with">Built With</a>
+    </li>
+  </ol>
+</details>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Build
+[NewVision Soccer Coaching](http://newvisionsoccercoaching.co.za)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The project is a custom website. It displays all the information about the client as well as a way to contact them.
 
-## Running unit tests
+## Built With
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This project is built with the following tools:
+* [Angular Web Framework](https://angular.io/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Ng Bootstrap](https://getbootstrap.com/)
+* [Bootstrap](https://ng-bootstrap.github.io/#/home)
+* [Alertifyjs](https://alertifyjs.com/)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is built in the following languages:
+* HTML
+* SCSS
+* TypeScript
+* JQuery
